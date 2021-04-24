@@ -1,0 +1,18 @@
+/* html {
+    font-size: 80%;
+} */
+
+@media only screen and (min-width: 768px) {
+    .main-product-cards-container {
+    /* .main-product-container { */
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 930; */
+        max-width: 950px;
+        /* margin: 0 auto; */
+    }
+
+    .plans-cards-container {
+        justify-content: center;
+    }
+}

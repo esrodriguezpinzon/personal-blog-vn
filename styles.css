@@ -235,10 +235,14 @@ main {
     margin-bottom: 20px;
 }
 
+.main-product-cards-container {
+    width: 100%;
+}
+
 .main-product-card-container-detail {
     width: 90%;
     min-width: 288px;
-    max-width: 1080px;
+    max-width: 350px;
     height: 150px;
     margin: 15px auto;
     padding: 15px;
