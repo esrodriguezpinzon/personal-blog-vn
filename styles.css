@@ -143,9 +143,123 @@ main {
 }
 
 .main-exchange-container p {
+    width: 90%;
     margin-bottom: 30px;
     font-size: 1.4rem;
     font-weight: lighter;
     line-height: 1.6rem;
     color: var(--warm-black);
+    margin-left: 5%;
+    /* text-align: center;
+    align-self: center; */
+    /* padding-left: 10%; */
+}
+
+.main-currency-table {
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    font-family: "Inter";
+    margin-bottom: 20px;
+}
+
+.main-currency-table .main-currency-table-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.0rem;
+    color: var(--bitcoin-orange);
+    text-align: center;
+}
+
+.main-currency-table-container {
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.main-currency-table-container .main-currency-table-container-table {
+    width: 100%;
+    height: 100%;
+}
+
+.main-currency-table-container td {
+    width: 50%;
+    font-size: 1.4rem;
+    line-height: 2.9rem;
+    font-weight: 500;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.main-product-container {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--black);
+}
+
+.main-product-container .product-detail-patata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    background-image: url('./assets/icons/batata.svg');
+    top: -10px;
+    left: calc(50% - 20px);
+}
+
+.product-detail-title {
+    margin-top: 25px;
+}
+
+.product-detail-title h2 {
+    color: var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.product-detail-title p {
+    color: var(--grey);
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-product-card-container-detail {
+    width: 90%;
+    min-width: 288px;
+    max-width: 1080px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.main-product-card-container-detail .product-clock-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("./assets/icons/clock.svg");
+    background-size: cover;
+    background-position: center;
+}
+
+.main-product-card-container-detail .product-card-title {
+
+}
+
+.main-product-card-container-detail .product-card-body {
+
 }
