@@ -1,0 +1,117 @@
+
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
+
+body {
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: black;
+}
+
+header {
+    width: 100%;
+    height: 140px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+header .header-items-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #47cfac;
+}
+
+header .icons {
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    justify-self: end;
+    align-items: center;
+    margin-right: 15px;
+}
+
+header .icons span {
+    color: white;
+}
+
+header nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+header nav .nav-logo-container {
+    margin-left: 50px;
+}
+
+header nav .nav-logo-container img {
+    width: 220px;
+    margin-top: 10px;
+}
+
+header nav .nav-about-container-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+header nav .nav-about-container-link a {
+    font-weight: bold;
+    color: black;
+    border-bottom: black solid;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    background-image: url('../assets/img/Cover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-index-container {
+    display: grid;
+    grid-column: 2;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.main-index-container p {
+    font-family: 'Roboto mono', monospace;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.main-index-container button {
+    width: 100px;
+    height: 50px;
+    background: #47cfac;
+    align-items: center;
+}
+
+.main-index-container button a{
+    margin-top: 20px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+}
