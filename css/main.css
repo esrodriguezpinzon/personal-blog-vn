@@ -115,3 +115,41 @@ header nav .nav-about-container-link a {
     font-weight: bold;
     font-size: 20px;
 }
+
+.blogs-main {
+    display: grid;
+}
+
+.blogs-news-container {
+    background-color:  #e6e9ed;
+    padding: 5px 40px;
+}
+
+.blogs-news-container p {
+    color: black;
+}
+
+.blogs-main-new-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+
+.blogs-main-new-img {
+    grid-column: 1;
+}
+
+.blogs-main-new-img img {
+    width: 300px;
+}
+
+.blogs-main-new-content {
+    grid-column: 2;
+}
+
+.blogs-main-new-content p {
+    margin-bottom: 15px;
+}
+
+
+
